@@ -4,6 +4,7 @@ def get_count_char(main_str):
     letter_ = letter_.replace(",","")
     letter_ = letter_.replace("!","")
     letter_ = "".join(letter_.split())
+    letter_.isalpha()
     letter_list = list(letter_)
     letter_dict = {}
     default_count = 0
